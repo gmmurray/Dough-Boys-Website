@@ -1,6 +1,53 @@
 /* Background pattern from Toptal Subtle Patterns */
 body, html { 
-		background-image: url("whitewall.png");
-		height: 100%;
-		font-family: Palatino, Charcoal, sans-serif;
+		background-image:url("whitewall.png");
+		height:100%;
+		font-family:Palatino, Charcoal, sans-serif;
 	}
+	
+#hours {
+	background-color:#8dcaff;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:8px;
+	text-align:right;
+	
+}
+
+.navBar {
+		list-style-type:none;
+		padding:0;
+		margin: 0;
+		overflow: hidden;
+		background: white;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		border-radius:4px;
+	}
+.navItem {
+		float:left;
+		border-right:1px solid black;
+}
+
+.navItem a{
+		display:block;
+		color:black;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+}
+
+.navItem a:hover {
+		background-color:#8dcaff;
+		color:black;
+}
+
+.activeItem a{
+		float:left;
+		display:block;
+		color:black;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+		background-color:#8dcaff;
+		border-right:1px solid black;
