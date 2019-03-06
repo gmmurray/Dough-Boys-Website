@@ -13,15 +13,18 @@ body, html {
 	text-align:right;
 	
 }
-
+#navHeader {
+		margin-top:9%;
+}
 .navLogo {
 		display:inline-block;
 		float:left;
+		padding:0;
 }
 
 .navBar {
 		width:100%;
-		height:240px;
+		height:220px;
 		display:inline-block;
 		list-style-type:none;
 		background: white;
@@ -50,7 +53,8 @@ body, html {
 		text-align:center;
 		padding:14px 16px;
 		text-decoration:none;
-		background-color:black;
+		background-color:#686868;
+		border-radius:4px;
 }
 
 .activeItem a:hover {
