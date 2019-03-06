@@ -1,16 +1,27 @@
 /* Background pattern from Toptal Subtle Patterns */
 body, html {
-		background-image:url("whitewall.png");
 		height:100%;
 		font-family:Palatino, Charcoal, sans-serif;
 	}
+.wallpaper {
+		background-image:url("whitewall.png");
+}
+
+.homeImg {
+		background-image:url("temp_hero_image.jpeg");
+		height:700px;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+}
 
 #hours {
-	background-color:#8dcaff;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-right:8px;
-	text-align:right;
+		background-color:#8dcaff;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-right:8px;
+		text-align:right;
 
 }
 #navHeader {
@@ -67,4 +78,33 @@ body, html {
 
 .activeItem a:hover {
 	color:#8dcaff;
+}
+
+.headingText {
+		text-align:center;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.row {
+		text-align:center;
+}
+.menuItem {
+		height:300px;
+		width:300px;
+		padding:15px;
+}
+
+.column {
+		float:left;
+		width:33.33%;
+		padding:10px;
+}
+
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
 }
