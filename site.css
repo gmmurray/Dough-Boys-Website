@@ -18,36 +18,36 @@ body, html {
 		list-style-type:none;
 		padding:0;
 		margin: 0;
-		overflow: hidden;
 		background: white;
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
-		border-radius:4px;
+		text-align:center;
+	
 	}
-.navItem {
-		float:left;
-		border-right:1px solid black;
+.navBar li {
+		display:inline;
+		
 }
 
-.navItem a{
-		display:block;
+.navBar a {
+		display:inline-block;
 		color:black;
 		text-align:center;
 		padding:14px 16px;
 		text-decoration:none;
 }
 
-.navItem a:hover {
-		background-color:#8dcaff;
-		color:black;
+.navBar a:hover {
+		color:#8dcaff;		
 }
 
-.activeItem a{
-		float:left;
-		display:block;
-		color:black;
+.activeItem a {
+		display:inline-block;
+		color:white;
 		text-align:center;
 		padding:14px 16px;
 		text-decoration:none;
-		background-color:#8dcaff;
-		border-right:1px solid black;
+		background-color:black;
+}
+
+.activeItem a:hover {
+	color:#8dcaff;
+}
