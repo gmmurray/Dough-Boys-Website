@@ -1,20 +1,27 @@
 /* Background pattern from Toptal Subtle Patterns */
-body, html { 
+body, html {
 		background-image:url("whitewall.png");
 		height:100%;
 		font-family:Palatino, Charcoal, sans-serif;
 	}
-	
+
 #hours {
 	background-color:#8dcaff;
 	padding-top:5px;
 	padding-bottom:5px;
 	padding-right:8px;
 	text-align:right;
-	
+
 }
 #navHeader {
-		margin-top:9%;
+		margin:0;
+		padding-left:0;
+
+		background:white;
+		text-align:center;
+		position:absolute;
+		bottom:0;
+		right:0;
 }
 .navLogo {
 		display:inline-block;
@@ -24,27 +31,28 @@ body, html {
 
 .navBar {
 		width:100%;
-		height:220px;
 		display:inline-block;
 		list-style-type:none;
 		background: white;
-		text-align:right;
+		text-align:center;
+		position:relative;
 	}
-	
+
 .navBar li {
-		display:inline;		
+		display:inline;
 }
 
 .navBar a {
+		margin:0;
 		display:inline-block;
 		color:black;
 		text-align:center;
-		padding:14px 16px;
+		padding:10px 10px;
 		text-decoration:none;
 }
 
 .navBar a:hover {
-		color:#8dcaff;		
+		color:#8dcaff;
 }
 
 .activeItem a {
