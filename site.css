@@ -1,0 +1,6 @@
+/* Background pattern from Toptal Subtle Patterns */
+body, html { 
+		background-image: url("whitewall.png");
+		height: 100%;
+		font-family: Palatino, Charcoal, sans-serif;
+	}
