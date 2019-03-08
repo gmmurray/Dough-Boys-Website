@@ -44,7 +44,7 @@ body, html {
 		width:100%;
 		display:inline-block;
 		list-style-type:none;
-		background: white;
+		background:white;
 		text-align:center;
 		position:relative;
 	}
@@ -72,7 +72,7 @@ body, html {
 		text-align:center;
 		padding:14px 16px;
 		text-decoration:none;
-		background-color:#686868;
+		background-color:#6D6E71;
 		border-radius:4px;
 }
 
@@ -120,7 +120,7 @@ body, html {
 }
 
 .menuOverlay {
-	border-radius:50%;
+		border-radius:50%;
 		position:absolute;
 		top:0;
 		width:300px;
@@ -148,4 +148,25 @@ body, html {
 		overflow:hidden;
 		transform:translate(-50%, -50%);
 		-ms-transform:translate(-50%, -50%);
+}
+
+.socialMediaDiv {
+		padding-top:10px;
+}
+
+.socialMedia {
+		height:50px;
+		width:50px;
+}
+.footerDiv {
+		background-color:#8dcaff;
+		color:#6D6E71;
+		text-align:center;
+		width:100%;
+		height:15%;
+}
+
+.footerDiv a {
+	color:white;
+	text-decoration:none;
 }
