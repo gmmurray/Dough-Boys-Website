@@ -83,6 +83,7 @@ body, html {
 		text-decoration:none;
 		background-color:#6D6E71;
 		border-radius:4px;
+		box-shadow:3px 3px 3px grey;
 }
 
 .activeItem a:hover {
@@ -148,10 +149,11 @@ body, html {
 		background-color:#8dcaff;
 		opacity:0;
 		transition:0.5s ease;
+		box-shadow:3px 3px 3px grey;
 }
 
 .menuImgContainer:hover .menuOverlay {
-		opacity:0.8;
+		opacity:0.9;
 }
 
 .menuOverlayText {
@@ -162,17 +164,23 @@ body, html {
 		text-align:center;
 		position:absolute;
 		display:block;
+		padding:4px;
 		top:50%;
 		left:50%;
 		overflow:hidden;
-		font-weight:bold;
 		transform:translate(-50%, -50%);
 		-ms-transform:translate(-50%, -50%);
 }
 
+.menuItemTitle {
+		font-weight:bold;
+		font-style:italic;
+		padding-top:0;
+		margin-top:4px;
+}
 .menuBorder {
 		border:1px solid white;
-		margin:8px;
+		margin:4px;
 }
 .socialMediaDiv {
 		padding-top:10px;
